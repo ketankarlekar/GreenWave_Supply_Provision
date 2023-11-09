@@ -61,9 +61,10 @@ background-repeat:no-repeat;
 				planters,plant care products & many more."</p>
 		</div>
 	</div>
-<!-- Plants container start -->
+	<hr>
+	<!-- Plants container start -->
 	<div class="container">
-		<h3 class="text-center">Plants</h3>
+		<h3 class="text-center">PLANTS</h3>
 		<div class="row">
 
 			<div class="col-md-3" style="width: 350px;">
@@ -132,7 +133,7 @@ background-repeat:no-repeat;
 					<div class="cart-body text-center">
 						<img alt="jade Plant" src="plants/Jade.webp"
 							style="width: 250px; height: 230px" class="img-thumlin">
-						<p> jade Plant</p>
+						<p>jade Plant</p>
 						<div class="row mb-2" style="width: 250px;">
 							<div class="col-4 ">
 								<a href="#" class="btn btn-danger btn-sm ml-2  "
@@ -155,162 +156,243 @@ background-repeat:no-repeat;
 
 				</div>
 			</div>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			<div class="col-md-3" style="width: 350px;">
-				<%--Chat gpt version for buttons --%>
-				<div class="card">
-					<div class="cart-body text-center">
-						<img alt="Broken Heart Plant" src="plants/Broken.webp"
-							style="width: 250px; height: 230px" class="img-thumlin">
-						<p>Broken Heart Plant</p>
-						<div class="row mb-2" style="width: 250px;">
-							<div class="col-4 ">
-								<a href="#" class="btn btn-danger btn-sm ml-2  "
-									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">Add
-									Cart</a>
-							</div>
-							<div class="col-4">
-								<a href="#" class="btn btn-danger btn-sm"
-									style="margin-left: 10px;">@196</a>
-							</div>
-							<div class="col-4">
-								<a href="#" class="btn btn-success"
-									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">View
-									Details</a>
-							</div>
-						</div>
-
-
-					</div>
-
-				</div>
-			</div>
-			<div class="col-md-3" style="width: 350px;">
-				<%--Chat gpt version for buttons --%>
-				<div class="card">
-					<div class="cart-body text-center">
-						<img alt="Broken Heart Plant" src="plants/Broken.webp"
-							style="width: 250px; height: 230px" class="img-thumlin">
-						<p>Broken Heart Plant</p>
-						<div class="row mb-2" style="width: 250px;">
-							<div class="col-4 ">
-								<a href="#" class="btn btn-danger btn-sm ml-2  "
-									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">Add
-									Cart</a>
-							</div>
-							<div class="col-4">
-								<a href="#" class="btn btn-danger btn-sm"
-									style="margin-left: 10px;">@196</a>
-							</div>
-							<div class="col-4">
-								<a href="#" class="btn btn-success"
-									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">View
-									Details</a>
-							</div>
-						</div>
-
-
-					</div>
-
-				</div>
-			</div>
-			
-			<div class="col-md-3" style="width: 350px;">
-				<%--Chat gpt version for buttons --%>
-				<div class="card">
-					<div class="cart-body text-center">
-						<img alt="Broken Heart Plant" src="plants/Broken.webp"
-							style="width: 250px; height: 230px" class="img-thumlin">
-						<p>Broken Heart Plant</p>
-						<div class="row mb-2" style="width: 250px;">
-							<div class="col-4 ">
-								<a href="#" class="btn btn-danger btn-sm ml-2  "
-									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">Add
-									Cart</a>
-							</div>
-							<div class="col-4">
-								<a href="#" class="btn btn-danger btn-sm"
-									style="margin-left: 10px;">@196</a>
-							</div>
-							<div class="col-4">
-								<a href="#" class="btn btn-success"
-									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">View
-									Details</a>
-							</div>
-						</div>
-
-
-					</div>
-
-				</div>
-			</div>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-
 
 		</div>
 
-<div class="text-center mt-4">
-<a href="#" class="btn btn-danger btn-sm"> View All</a>
-</div>
+		<div class="text-center mt-4">
+			<a href="#" class="btn btn-danger btn-sm"> View All</a>
+		</div>
 
 	</div>
-	<!-- Plants container start -->
+	<!-- Plants container endHere -->
+	<hr>
 
 
 
+	<!-- Seeds container start -->
+	<div class="container">
+		<h3 class="text-center">SEEDS</h3>
+		<div class="row">
 
-
-
-
-
-
-
-
-	<%-- 		Buttons below the palants (video version) 	
-		
-		<div class="row" style="width: 300px;">
+			<div class="col-md-3" style="width: 350px;">
+				<%--Chat gpt version for buttons --%>
+				<div class="card">
+					<div class="cart-body text-center">
+						<img alt="Broken Heart Plant" src="seeds/palak.jpg"
+							style="width: 250px; height: 230px" class="img-thumlin">
+						<p>Spinach Seeds(palak)</p>
+						<div class="row mb-2" style="width: 250px;">
 							<div class="col-4 ">
-								<a href="" class="btn btn-danger btn-sm "> Add Cart</a>
-
+								<a href="#" class="btn btn-danger btn-sm ml-2  "
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">Add
+									Cart</a>
 							</div>
-
 							<div class="col-4">
-								<a href="" class="btn btn-danger btn-sm"> @196</a>
+								<a href="#" class="btn btn-danger btn-sm"
+									style="margin-left: 10px;">@96</a>
 							</div>
-							<a href="" class="btn btn-success "> View Details</a>
-
-
-
-
+							<div class="col-4">
+								<a href="#" class="btn btn-success"
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">View
+									Details</a>
+							</div>
 						</div>
-						 --%>
+
+
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="col-md-3" style="width: 350px;">
+				<%--Chat gpt version for buttons --%>
+				<div class="card">
+					<div class="cart-body text-center">
+						<img alt="Lucky Bamboo Plant" src="seeds/coriander.webp"
+							style="width: 250px; height: 230px" class="img-thumlin">
+						<p>Coriander Seeds</p>
+						<div class="row mb-2" style="width: 250px;">
+							<div class="col-4 ">
+								<a href="#" class="btn btn-danger btn-sm ml-2  "
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">Add
+									Cart</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-danger btn-sm"
+									style="margin-left: 10px;">@26</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-success"
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">View
+									Details</a>
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-3" style="width: 350px;">
+				<%--Chat gpt version for buttons --%>
+				<div class="card">
+					<div class="cart-body text-center">
+						<img alt="jade Plant" src="seeds/tomato.webp"
+							style="width: 250px; height: 230px" class="img-thumlin">
+						<p>Cherry Tomato Seeds</p>
+						<div class="row mb-2" style="width: 250px;">
+							<div class="col-4 ">
+								<a href="#" class="btn btn-danger btn-sm ml-2  "
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">Add
+									Cart</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-danger btn-sm"
+									style="margin-left: 10px;">@56</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-success"
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">View
+									Details</a>
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="text-center mt-4">
+			<a href="#" class="btn btn-danger btn-sm"> View All</a>
+		</div>
+
+	</div>
+
+
+	<!-- Seeds container endHere -->
+	<hr>
+
+
+
+	<!-- Pots container start -->
+	<div class="container">
+		<h3 class="text-center">POTS</h3>
+		<div class="row">
+
+			<div class="col-md-3" style="width: 350px;">
+				<%--Chat gpt version for buttons --%>
+				<div class="card">
+					<div class="cart-body text-center">
+						<img alt="Broken Heart Plant" src="pots/krish.webp"
+							style="width: 250px; height: 230px" class="img-thumlin">
+						<p>Krish self-watering Planter</p>
+						<div class="row mb-2" style="width: 250px;">
+							<div class="col-4 ">
+								<a href="#" class="btn btn-danger btn-sm ml-2  "
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">Add
+									Cart</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-danger btn-sm"
+									style="margin-left: 10px;">@196</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-success"
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">View
+									Details</a>
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="col-md-3" style="width: 350px;">
+				<%--Chat gpt version for buttons --%>
+				<div class="card">
+					<div class="cart-body text-center">
+						<img alt="Lucky Bamboo Plant" src="pots/roma.webp"
+							style="width: 250px; height: 230px" class="img-thumlin">
+						<p>Roma Ceremic Pot</p>
+						<div class="row mb-2" style="width: 250px;">
+							<div class="col-4 ">
+								<a href="#" class="btn btn-danger btn-sm ml-2  "
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">Add
+									Cart</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-danger btn-sm"
+									style="margin-left: 10px;">@156</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-success"
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">View
+									Details</a>
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-3" style="width: 350px;">
+				<%--Chat gpt version for buttons --%>
+				<div class="card">
+					<div class="cart-body text-center">
+						<img alt="jade Plant" src="pots/zuri.webp"
+							style="width: 250px; height: 230px" class="img-thumlin">
+						<p>Zuri Planter Ball Retro</p>
+						<div class="row mb-2" style="width: 250px;">
+							<div class="col-4 ">
+								<a href="#" class="btn btn-danger btn-sm ml-2  "
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;"> 	Add
+									Cart</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-danger btn-sm"
+									style="margin-left: 10px;">@196</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="btn btn-success"
+									style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left: 10px;">View
+									Details</a>
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="text-center mt-4">
+			<a href="#" class="btn btn-danger btn-sm"> View All</a>
+		</div>
+
+	</div>
+
+
+	<!-- Pots container endHere -->
+	
+
+
+
+
+
+
+
+
+<%@include file = "allCompo/footer.jsp"  %>
 
 
 
