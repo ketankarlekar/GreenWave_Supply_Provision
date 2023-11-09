@@ -1,0 +1,30 @@
+.bg-custom1{
+	background-color: #388e3c;
+	 
+    height: 60px; /* Change this value to your desired height */
+  
+}
+.bg-custom{
+	background-color: #ffedde;
+	 height: 80px;
+}
+.navbar .nav-item:hover .nav-link{
+	background-color: #fb8c00;
+	color: #212121 ;
+	border-radius: 15px;
+}
+.btn-custom:first-child {
+    margin-left: 10px; /* Adjust the value as needed */
+}
+.p-custom {
+    font-size: 20px;
+}
+.card{
+	transition: all 0.3s;
+	
+}
+
+.card:hover{
+	transform: scale(1.15);
+	
+}
