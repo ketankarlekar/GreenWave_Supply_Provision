@@ -12,33 +12,6 @@
 <%-- Css connection  --%>
 <link href="allCompo/style.css" rel="stylesheet" type="text/css">
 
-
-
-<%--
-<style type="text/css">
-.back-img{
-background:url("img/bg.jpg");
-height :75vh;
-width: 35%;
-background-size: cover;
-background-repeat:no-repeat;
-
-
-}
-
-</style>
- --%>
-
-
-
-
-
-
-
-
-
-
-
 <%--  <link href="allCompo/style.css" rel="stylesheet" type="text/css">   --%>
 
 </head>
@@ -69,7 +42,7 @@ background-repeat:no-repeat;
 
 			<div class="col-md-3" style="width: 350px;">
 				<%--Chat gpt version for buttons --%>
-				<div class="card">
+				<div class="card cardc">
 					<div class="cart-body text-center">
 						<img alt="Broken Heart Plant" src="plants/Broken.webp"
 							style="width: 250px; height: 230px" class="img-thumlin">
@@ -100,7 +73,7 @@ background-repeat:no-repeat;
 
 			<div class="col-md-3" style="width: 350px;">
 				<%--Chat gpt version for buttons --%>
-				<div class="card">
+				<div class="card cardc">
 					<div class="cart-body text-center">
 						<img alt="Lucky Bamboo Plant" src="plants/Bamboo.webp"
 							style="width: 250px; height: 230px" class="img-thumlin">
@@ -129,7 +102,7 @@ background-repeat:no-repeat;
 			</div>
 			<div class="col-md-3" style="width: 350px;">
 				<%--Chat gpt version for buttons --%>
-				<div class="card">
+				<div class="card cardc">
 					<div class="cart-body text-center">
 						<img alt="jade Plant" src="plants/Jade.webp"
 							style="width: 250px; height: 230px" class="img-thumlin">
@@ -176,7 +149,7 @@ background-repeat:no-repeat;
 
 			<div class="col-md-3" style="width: 350px;">
 				<%--Chat gpt version for buttons --%>
-				<div class="card">
+				<div class="card cardc">
 					<div class="cart-body text-center">
 						<img alt="Broken Heart Plant" src="seeds/palak.jpg"
 							style="width: 250px; height: 230px" class="img-thumlin">
@@ -207,7 +180,7 @@ background-repeat:no-repeat;
 
 			<div class="col-md-3" style="width: 350px;">
 				<%--Chat gpt version for buttons --%>
-				<div class="card">
+				<div class="card cardc">
 					<div class="cart-body text-center">
 						<img alt="Lucky Bamboo Plant" src="seeds/coriander.webp"
 							style="width: 250px; height: 230px" class="img-thumlin">
@@ -236,7 +209,7 @@ background-repeat:no-repeat;
 			</div>
 			<div class="col-md-3" style="width: 350px;">
 				<%--Chat gpt version for buttons --%>
-				<div class="card">
+				<div class="card cardc">
 					<div class="cart-body text-center">
 						<img alt="jade Plant" src="seeds/tomato.webp"
 							style="width: 250px; height: 230px" class="img-thumlin">
@@ -285,7 +258,7 @@ background-repeat:no-repeat;
 
 			<div class="col-md-3" style="width: 350px;">
 				<%--Chat gpt version for buttons --%>
-				<div class="card">
+				<div class="card cardc">
 					<div class="cart-body text-center">
 						<img alt="Broken Heart Plant" src="pots/krish.webp"
 							style="width: 250px; height: 230px" class="img-thumlin">
@@ -316,7 +289,7 @@ background-repeat:no-repeat;
 
 			<div class="col-md-3" style="width: 350px;">
 				<%--Chat gpt version for buttons --%>
-				<div class="card">
+				<div class="card cardc">
 					<div class="cart-body text-center">
 						<img alt="Lucky Bamboo Plant" src="pots/roma.webp"
 							style="width: 250px; height: 230px" class="img-thumlin">
@@ -345,7 +318,7 @@ background-repeat:no-repeat;
 			</div>
 			<div class="col-md-3" style="width: 350px;">
 				<%--Chat gpt version for buttons --%>
-				<div class="card">
+				<div class="card cardc">
 					<div class="cart-body text-center">
 						<img alt="jade Plant" src="pots/zuri.webp"
 							style="width: 250px; height: 230px" class="img-thumlin">
