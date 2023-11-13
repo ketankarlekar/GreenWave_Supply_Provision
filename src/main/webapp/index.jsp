@@ -1,3 +1,5 @@
+<%@page import="java.sql.Connection"%>
+<%@page import="com.DB.DBConnect"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%-- JSP comment for the encoding directive --%>
@@ -35,6 +37,10 @@
 		</div>
 	</div>
 	<hr>
+	
+
+	
+	
 	<!-- Plants container start -->
 	<div class="container">
 		<h3 class="text-center">PLANTS</h3>
