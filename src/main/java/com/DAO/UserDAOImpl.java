@@ -22,9 +22,9 @@ public class UserDAOImpl implements UserDAO {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			
 			ps.setString(1, us.getFname());
-			ps.setString(1, us.getLname());
-			ps.setString(1, us.getEmail());
-			ps.setString(1, us.getPassword());
+			ps.setString(2, us.getLname());
+			ps.setString(3, us.getEmail());
+			ps.setString(4, us.getPassword());
 			
 			int i =  ps.executeUpdate();
 			if(i ==1 ) {
