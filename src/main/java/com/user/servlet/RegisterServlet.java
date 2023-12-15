@@ -12,6 +12,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 
 
@@ -19,6 +20,11 @@ import javax.servlet.http.HttpServletResponse;
 
 
 public class RegisterServlet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -38,15 +44,31 @@ public class RegisterServlet extends HttpServlet {
 			us.setLname(lname);
 			us.setEmail(email);
 			us.setPassword(password);
+	
 			
-			UserDAOImpl dao = new UserDAOImpl(DBConnect.getConn());
+			HttpSession session = req.getSession();
 			
-			boolean f= dao.userRegister(us);
-			if (f) {
-				System.out.println("User register successfully....");
+			
+			if(check != null) {
+
+				UserDAOImpl dao = new UserDAOImpl(DBConnect.getConn());
 				
+				boolean f= dao.userRegister(us);
+				if (f) {
+				//	System.out.println("User register successfully....");
+					session.setAttribute("SuccessMSg", "User register successfully...");
+					resp.sendRedirect("register.jsp");
+					
+				}else {
+					//System.out.println("Something went wrong on server!!");
+					session.setAttribute("FailedMSg", "Something went wrong on server!!");
+					resp.sendRedirect("register.jsp");
+				}
 			}else {
-				System.out.println("Some thing went wrong on server!!");
+				//System.out.println("Please check Agree & Terms conditions");
+				session.setAttribute("FailedMSg", "Please check, Agree Terms & conditions");
+				resp.sendRedirect("register.jsp");
+				
 			}
 			
 			
